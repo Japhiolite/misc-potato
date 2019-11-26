@@ -3,6 +3,7 @@ name: misc_notebooks
 channels:
   - conda-forge
   - anaconda
+  - damianavila82
 
 dependencies:
   - numpy
@@ -13,8 +14,10 @@ dependencies:
   - sympy
   - altair
   - vega_datasets
+  - vega
   - bokeh
   - pandas
+  - rise
 
   # extensions
   - jupyter_contrib_nbextensions
