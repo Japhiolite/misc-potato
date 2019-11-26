@@ -1,0 +1,22 @@
+name: misc_notebooks
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - sympy
+  - altair
+  - vega_datasets
+  - bokeh
+  - pandas
+
+  # extensions
+  - jupyter_contrib_nbextensions
+  - nbgrader
+
